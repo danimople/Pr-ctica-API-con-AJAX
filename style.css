@@ -1,0 +1,66 @@
+.w-100 {
+    width: 100%;
+    margin: 0 auto;
+}
+.w-60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#bg-image {
+    background-image: url(/img/fondo-personajes.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.bg-rojo {
+    background-color: #ED1C24;
+}
+.bg-pink {
+    background-color: pink;
+}
+.text-white {
+    color: white;
+}
+.scroll {
+    width: 100%;
+    height: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+#mask {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 600px;
+}
+#contenedor {
+    background-image: url(../img/fondo-comics.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.third {
+    border-color: #ED1C24;
+    color: #fff;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+.third:hover {
+    box-shadow: 0 0 10px 0 #ED1C24 inset, 0 0 10px 4px #ED1C24;
+}
+.bg-negro {
+    background-color: black;
+}
+
+.btn-circle.btn-foot {
+    width: 45px;
+    height: 45px;
+    padding: 6px 0px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.border-foot {
+    border-top: 1px solid white;
+}
